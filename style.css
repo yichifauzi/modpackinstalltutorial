@@ -228,6 +228,7 @@ blockquote p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  width: 580px; 
 }
 
 .button,
