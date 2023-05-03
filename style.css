@@ -48,6 +48,14 @@ footer {
   font-size: 11px;
 }
 
+@media (max-width: 767px) {
+  /* Styles for devices with a maximum width of 767px */
+  footer {
+    font-size: 8px;
+  }
+}
+
+
 a {
   color: var(--link);
   transition: 0.3s;
@@ -74,7 +82,7 @@ blockquote p {
 }
 
 .img {
-  height: 500px;
+  max-height: 500px;
 }
 
 .img-sm {
