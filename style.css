@@ -202,3 +202,44 @@ blockquote p {
     color: var(--link-visited-dark-theme);
   }
 }
+
+#mpinstall.hide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, visibility 0s 0.5s;
+  visibility: hidden;
+  display: none;
+}
+
+#mpinstall.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, visibility 0s;
+  display: block;
+}
+
+#pltutorial.hide {
+  display: none;
+}
+
+#pltutorial.show {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.button,
+.button-b {
+  grid-column: span 0.5;
+}
+
+#mpinstall,
+#pltutorial {
+  display: none;
+}
+
+.show {
+  display: block;
+}
