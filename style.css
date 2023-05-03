@@ -1,15 +1,4 @@
-:root {
-  --light: #fafafa;
-  --lighter: #ccc;
-  --darker: #111;
-  --dark: #222;
-  --dark-accent: #444;
-  --dark-lighter: #888;
-  --link: #07a;
-  --link-hover: rgb(0, 130, 186);
 
-  color-scheme: light dark;
-}
 
 html {
   height: 100%;
