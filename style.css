@@ -24,9 +24,7 @@ main {
   width: 700px;
 }
 
-.footer {
-  width: 700px;
-}
+
 
 li {
   margin-top: 10px;
@@ -45,13 +43,45 @@ h2 {
 
 footer {
   color: var(--dark-lighter);
-  font-size: 11px;
+  font-size: 12px;
+}
+
+.footer {
+  width: 900px;
 }
 
 @media (max-width: 767px) {
   /* Styles for devices with a maximum width of 767px */
   footer {
-    font-size: 8px;
+    font-size: 10px;
+  }
+  .footer {
+    width: 1000px;
+  }
+  #topBtn{
+    bottom: 70px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for devices with a maximum width of 767px */
+  footer {
+    font-size: 7px;
+  }
+  .footer {
+    width: 1500px;
+  }
+  .grid-container {
+    grid-auto-rows: 0.5;
+  }
+
+  #topBtn{
+    bottom: 70px;
   }
 }
 
@@ -171,40 +201,6 @@ blockquote p {
   font-size: small;
 }
 
-@media screen and (min-width: 400px) {
-  blockquote {
-    display: table;
-  }
-  blockquote > * {
-    display: table-cell;
-  }
-  blockquote > .name {
-    padding-right: 8px;
-  }
-}
-
-/* Dark mode *****************************************************************/
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--light);
-    background: var(--dark);
-  }
-
-  footer {
-    color: var(--lighter);
-  }
-
-  blockquote {
-    background: var(--darker);
-    color: var(--lighter);
-    border-left-color: var(--dark-accent);
-  }
-
-  a:hover {
-    color: var(--link-hover);
-  }
-}
-
 #mpinstall.hide {
   opacity: 0;
   transition: opacity 0.5s ease-in-out, visibility 0s 0.5s;
@@ -234,19 +230,6 @@ blockquote p {
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 1;
-  }
-}
-
-@media (max-width: 576px) {
-  .grid-container {
-    grid-auto-rows: 0.5;
-  }
-}
-
 .grid-container a {
   display: flex;
   justify-content: center;
@@ -271,8 +254,8 @@ blockquote p {
 #topBtn {
   display: none;
   position: fixed;
-  bottom: 50px;
-  right: 30px;
+  bottom: 60px;
+  right: 35px;
   z-index: 99;
   border: none;
   outline: none;
