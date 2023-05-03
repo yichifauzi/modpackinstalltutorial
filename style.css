@@ -18,17 +18,24 @@ html {
 
 body {
   min-height: 100%;
-  display: grid;
   grid-template-rows: 1fr auto;
-
   margin: 0 auto;
-  max-width: 672px;
   line-height: 1.6;
   font-size: 18px;
-  color: var(--dark);
-  background-color: var(--light);
-  padding: 0 10px;
+  
   font-family: "Open Sans";
+}
+
+main {
+  width: 700px
+}
+
+.footer {
+  width: 700px;
+}
+
+li {
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 680px) {
@@ -43,14 +50,13 @@ h2 {
 }
 
 footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
   color: var(--dark-lighter);
   font-size: 9px;
 }
 
 a {
   color: var(--link);
+  transition: 0.3s;
 }
 
 a:hover {
@@ -95,7 +101,7 @@ blockquote p {
 }
 
 .button:hover {
-  background-color: #337736; /* Green */
+  background-color: #3d8a3f; /* Darker Green */
   border: none;
   border-radius: 4px;
   color: white;
@@ -107,7 +113,7 @@ blockquote p {
 }
 
 .button-b {
-  background-color: #1129c1; /* Green */
+  background-color: #4C79AF; /* Blue */
   border: none;
   border-radius: 4px;
   color: white;
@@ -120,7 +126,7 @@ blockquote p {
 }
 
 .button-b:hover {
-  background-color: #0a186e; /* Green */
+  background-color: #2f4a6a; /* Darker Blue */
   border: none;
   border-radius: 4px;
   color: white;
@@ -162,13 +168,6 @@ blockquote p {
   font-size: small;
 }
 
-.m-1 {
-  margin: 4px;
-}
-
-.mt {
-  margin-top: 40px;
-}
 
 @media screen and (min-width: 400px) {
   blockquote {
