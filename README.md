@@ -59,6 +59,4 @@ Prism啟動器 安裝步驟 :
 *   [Zulu JAVA 17 By Azul](https://www.azul.com/)
 *   [Bootstrap](https://getbootstrap.com/)
 
-返回上面
-
 DC群組: [AOF6 我的世界模組生存](https://discord.gg/3MAMxqYwfV) - 網頁作者: 土靈 dirtTW#0445 - [Github](https://github.com/yichifauzi)
