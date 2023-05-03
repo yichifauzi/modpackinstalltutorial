@@ -61,4 +61,4 @@ Prism啟動器 安裝步驟 :
 
 返回上面
 
-DC群組: [AOF6 我的世界模組生存](https://discord.gg/3MAMxqYwfV) - 網頁作者: ![dirtTW](img/logo.png)土靈 dirtTW#0445 - [Github](https://github.com/yichifauzi) - [Source Code](https://github.com/yichifauzi/modpackinstalltutorial)
+DC群組: [AOF6 我的世界模組生存](https://discord.gg/3MAMxqYwfV) - 網頁作者: 土靈 dirtTW#0445 - [Github](https://github.com/yichifauzi) - [Source Code](https://github.com/yichifauzi/modpackinstalltutorial)
