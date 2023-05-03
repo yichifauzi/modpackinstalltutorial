@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Unifont';
+  src: url('font/UnifontMedium.eot');
+  src: url('font/UnifontMedium.eot?#iefix') format('embedded-opentype'),
+      url('font/UnifontMedium.woff2') format('woff2'),
+      url('font/UnifontMedium.woff') format('woff'),
+      url('font/UnifontMedium.ttf') format('truetype'),
+      url('font/UnifontMedium.svg#UnifontMedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -17,14 +30,14 @@ body {
   -ms-user-select: none;
   user-select: none;
 
-  font-family: "Open Sans";
+  font-family: 'Unifont',"Open Sans" !important; 
+    font-weight: 500;
+    font-style: normal;
 }
 
 main {
   width: 700px;
 }
-
-
 
 li {
   margin-top: 10px;
@@ -58,7 +71,7 @@ footer {
   .footer {
     width: 1000px;
   }
-  #topBtn{
+  #topBtn {
     bottom: 70px;
   }
 
@@ -80,7 +93,7 @@ footer {
     grid-auto-rows: 0.5;
   }
 
-  #topBtn{
+  #topBtn {
     bottom: 70px;
   }
 }
