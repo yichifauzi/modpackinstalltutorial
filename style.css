@@ -227,7 +227,7 @@ blockquote p {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  gap: 4px;
   width: 580px; 
 }
 
