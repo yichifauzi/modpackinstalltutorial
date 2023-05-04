@@ -39,8 +39,12 @@ body {
   transition: 0.1s;
 }
 
+.btn{
+  transition: 0.3s;
+}
 .btn:active {
   transform: scale(0.98);
+  transition: 0.3s;
 }
 
 .fa-1x {
