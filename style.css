@@ -1,15 +1,14 @@
 @font-face {
-  font-family: 'Unifont';
-  src: url('font/UnifontMedium.eot');
-  src: url('font/UnifontMedium.eot?#iefix') format('embedded-opentype'),
-      url('font/UnifontMedium.woff2') format('woff2'),
-      url('font/UnifontMedium.woff') format('woff'),
-      url('font/UnifontMedium.ttf') format('truetype'),
-      url('font/UnifontMedium.svg#UnifontMedium') format('svg');
+  font-family: "Unifont";
+  src: url("font/UnifontMedium.eot");
+  src: url("font/UnifontMedium.eot?#iefix") format("embedded-opentype"),
+    url("font/UnifontMedium.woff2") format("woff2"),
+    url("font/UnifontMedium.woff") format("woff"),
+    url("font/UnifontMedium.ttf") format("truetype"),
+    url("font/UnifontMedium.svg#UnifontMedium") format("svg");
   font-weight: 500;
   font-style: normal;
 }
-
 
 html {
   height: 100%;
@@ -30,10 +29,56 @@ body {
   -ms-user-select: none;
   user-select: none;
 
-  font-family: 'Unifont',"Open Sans" !important; 
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Unifont", "Open Sans" !important;
+  font-weight: 500;
+  font-style: normal;
 }
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: scale(1.01);
+  transition: 0.15s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.cf-logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("img/cf-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.md-logo {
+  display: inline-block;
+  width: 22px;
+  height: 24px;
+  background-image: url("img/modrinth-logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-orange {
+  background-color: #F16436 !important;
+  border-color: #F16436 !important;
+  color: white !important;
+}
+
+.btn-orange:hover {
+  background-color: #d24c1f !important;
+  border-color: #d24c1f !important;
+}
+
+
 
 main {
   width: 700px;
