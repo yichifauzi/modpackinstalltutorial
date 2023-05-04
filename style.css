@@ -16,10 +16,6 @@ html {
 }
 
 body {
-  min-height: 100%;
-  grid-template-rows: 1fr auto;
-  margin: 0 auto;
-  line-height: 1.6;
   font-size: 18px;
 
   -webkit-touch-callout: none;
@@ -39,33 +35,43 @@ body {
 }
 
 .card:hover{
-  transform: scale(1.01);
-  transition: 0.15s;
+  transform: scale(1.02);
+  transition: 0.1s;
 }
 
 .btn:active {
   transform: scale(0.98);
 }
 
+.fa-1x {
+  font-size: 28px !important;
+  display: table-cell !important;
+  padding: 1px !important;
+}
+
 .cf-logo {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
+  display: table-cell;
   background-image: url("img/cf-logo.svg");
+  width: 28px;
+  height: 28px;
+  background-image: url(img/cf-logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 14px;
 }
 
 .md-logo {
-  display: inline-block;
-  width: 22px;
+  display: table-cell;
+  width: 24px;
   height: 24px;
   background-image: url("img/modrinth-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 14px;
 }
+
 
 .btn-orange {
   background-color: #F16436 !important;
@@ -76,6 +82,17 @@ body {
 .btn-orange:hover {
   background-color: #d24c1f !important;
   border-color: #d24c1f !important;
+}
+
+.btn-black {
+  background-color: #171515!important;
+  border-color: #171515 !important;
+  color: white !important;
+}
+
+.btn-black:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
 }
 
 
