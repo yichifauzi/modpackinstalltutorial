@@ -301,10 +301,14 @@ blockquote p {
 }
 
 #pltutorial.hide {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, visibility 0s;
   display: none;
 }
 
 #pltutorial.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, visibility 0s;
   display: block;
 }
 
