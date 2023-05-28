@@ -19,7 +19,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="icon" href="./favicon.ico" />
   <link rel="manifest" href="/site.webmanifest" />
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
+  
 </head>
 
 <body>
@@ -38,8 +39,11 @@
           <li class="nav-item me-2">
             <a class="nav-link btn btn-outline-success active" href="#"><b>模組包安裝教學</b></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item me-2">
             <a class="nav-link btn btn-outline-secondary" href="./modpack-recommended/"><b>模組包推薦</b></a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link btn btn-outline-secondary" href="./useful-link/"><b>實用網址</b></a>
           </li>
         </ul>
       </div>
@@ -76,28 +80,30 @@
                 Prism 啟動器</b></a>
             <a class="m-1 btn btn-success shadow"
               href="https://cdn.azul.com/zulu/bin/zulu17.42.19-ca-jdk17.0.7-win_x64.msi"><b>安裝 Java 17</b></a>
-            <a class="m-1 btn btn-primary shadow" onclick="showAndHide('pltutorial')" href="#"><b>Prism 啟動器 安裝步驟</b></a>
-            <a class="m-1 btn btn-primary shadow" onclick="showAndHide('mpinstall')" href="#"><b>模組包安裝步驟</b></a>
+            <a class="m-1 btn btn-primary shadow" data-bs-toggle="collapse" href="#pltutorial" role="button" aria-expanded="false" aria-controls="pltutorial"><b>Prism 啟動器 安裝步驟</b></a>
+            <a class="m-1 btn btn-primary shadow"  href="#mpinstall"  data-bs-toggle="collapse" href="#mpinstall" role="button" aria-expanded="false" aria-controls="mpinstall"><b>模組包安裝步驟</b></a>
           </div>
           <div class="mt-3">
-            <div id="pltutorial" class="hide m-2">
-              <h2 class="mt">Prism 啟動器 安裝步驟 :</h2>
+            <div id="pltutorial" class="m-2 collapse">
+              <div class="">
 
-              <ol class="m-1">
-                <li>
-                  <p>
-                    <b>下載</b> Prism 啟動器和Java 17的安裝檔 點擊上面的綠色按鈕
-                  </p>
-                </li>
-                <li>
-                  <p>安裝完成後 <b>選擇語言</b></p>
-                  <img src="img/1.png" alt="選擇語言" class="img img-fluid rounded shadow" />
-                </li>
-                <li>
-                  <p>
-                    <b>選擇Java版本</b> 如果沒顯示 請確認是否有安裝 JAVA 17
-                    (安裝後 按 <b>重新整理</b>)
-                  </p>
+                <h2 class="mt">Prism 啟動器 安裝步驟 :</h2>
+                
+                <ol class="m-1">
+                  <li>
+                    <p>
+                      <b>下載</b> Prism 啟動器和Java 17的安裝檔 點擊上面的綠色按鈕
+                    </p>
+                  </li>
+                  <li>
+                    <p>安裝完成後 <b>選擇語言</b></p>
+                    <img src="img/1.png" alt="選擇語言" class="img img-fluid rounded shadow" />
+                  </li>
+                  <li>
+                    <p>
+                      <b>選擇Java版本</b> 如果沒顯示 請確認是否有安裝 JAVA 17
+                      (安裝後 按 <b>重新整理</b>)
+                    </p>
                   <img src="img/2.png" alt="選擇Java版本" class="img img-fluid rounded shadow" />
                 </li>
                 <li>
@@ -112,9 +118,10 @@
                   <p>新增 Microsoft 帳號 按照上面提示開啟瀏覽器跟貼上代碼</p>
                   <img src="img/5.png" alt="新增 Microsoft 帳號" class="img img-fluid rounded shadow" />
                 </li>
+              </div>
               </ol>
             </div>
-            <div id="mpinstall" class="hide m-2">
+            <div id="mpinstall" class="m-2 collapse">
               <h2 class="mt">模組包安裝步驟</h2>
               <ol>
                 <li>
