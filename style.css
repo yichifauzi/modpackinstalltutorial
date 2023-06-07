@@ -106,6 +106,17 @@ body {
   border-color: #000 !important;
 }
 
+.btn-purple {
+  background-color: #5865F2 !important;
+  border-color:#5865F2 !important;
+  color: white !important;
+}
+
+.btn-purple:hover {
+  background-color: #4751c5 !important;
+  border-color:#4751c5 !important;
+  color: white !important;
+}
 
 
 main {
