@@ -69,4 +69,4 @@ Prism 啟動器 安裝步驟
 
 
 
-DC群組: [土靈泥土幫](https://discord.gg/eS6ZgXcfAV) - 網頁作者: ![dirtTW](img/logo.png) 土靈 dirtTW#0445 - [Github](https://github.com/yichifauzi) - [Source Code](https://github.com/yichifauzi/modpackinstalltutorial)
+DC群組: [土靈泥土幫](https://discord.gg/eS6ZgXcfAV) - 網頁作者: 土靈 dirtTW#0445 - [Github](https://github.com/yichifauzi) - [Source Code](https://github.com/yichifauzi/modpackinstalltutorial)
