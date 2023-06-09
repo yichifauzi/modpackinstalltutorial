@@ -1,6 +1,6 @@
       模組包安裝教學       
 
- [![Logo](img/logo.png) **dirtTW 土靈**](./)
+ <img src="../img/logo.png" alt="Logo" width="26" class="d-inline-block align-text-top logo" />
 
 模組包安裝教學
 =======
