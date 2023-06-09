@@ -1,4 +1,4 @@
-      模組包安裝教學       
+[模組包安裝教學](https://yichifauzi.github.io/modpackinstalltutorial/)
 
  <img src="https://github.com/yichifauzi/modpackinstalltutorial/blob/main/img/logo.png?raw=true" alt="Logo" width="128" class="d-inline-block align-text-top logo" />
 
