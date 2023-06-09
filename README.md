@@ -56,13 +56,6 @@ Prism 啟動器 安裝步驟
 
     ![安裝模組包](img/9.png)
 
-覺得太複雜嗎？ 試試看RPMTW團隊的 RPM啟動器
-
-[![](https://cdn.discordapp.com/attachments/815819581440262146/877059900776267776/RPM------.gif)](https://www.rpmtw.com/)
-
-以下是RPM 啟動器的載點
-
-[**安裝 RPM 啟動器**](https://github.com/RPMTW/RPMLauncher/releases/latest/download/RPMLauncher-Windows-Installer.exe)
 
 ### Credit
 
@@ -74,6 +67,6 @@ Prism 啟動器 安裝步驟
 
 [土靈泥土幫 Discord](https://discord.gg/eS6ZgXcfAV)  
 
-返回上面
+
 
 DC群組: [土靈泥土幫](https://discord.gg/eS6ZgXcfAV) - 網頁作者: ![dirtTW](img/logo.png) 土靈 dirtTW#0445 - [Github](https://github.com/yichifauzi) - [Source Code](https://github.com/yichifauzi/modpackinstalltutorial)
