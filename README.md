@@ -1,6 +1,6 @@
       模組包安裝教學       
 
- <img src="../img/logo.png" alt="Logo" width="26" class="d-inline-block align-text-top logo" />
+ <img src="https://github.com/yichifauzi/modpackinstalltutorial/blob/main/img/logo.png?raw=true" alt="Logo" width="26" class="d-inline-block align-text-top logo" />
 
 模組包安裝教學
 =======
