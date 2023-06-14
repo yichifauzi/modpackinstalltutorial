@@ -30,6 +30,10 @@ body {
   font-style: normal;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 .card {
   transition: 0.3s;
 }
