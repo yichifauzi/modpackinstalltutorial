@@ -160,9 +160,8 @@ footer {
     width: 1000px;
   }
   #topBtn {
-    bottom: 90px !important; 
+    bottom: 40px !important; 
     z-index: -1;
-    position: absolute;
   }
 
   .grid-container {
