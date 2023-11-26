@@ -1,7 +1,5 @@
       DBOP模組包安裝教學             
 
- [![Logo](img/logo.png) **dirtTW 土靈**](./)
-
 *   [**模組包安裝教學**](#)
 *   [**模組包推薦**](./modpack-recommended/)
 *   [**實用網址**](./useful-link/)
