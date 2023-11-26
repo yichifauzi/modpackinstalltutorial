@@ -1,9 +1,5 @@
       DBOP模組包安裝教學             
 
-*   [**模組包安裝教學**](#)
-*   [**模組包推薦**](./modpack-recommended/)
-*   [**實用網址**](./useful-link/)
-
 [![DBOP logo.png](https://github.com/yichifauzi/DBOP/blob/main/DBOP%20banner.png?raw=true)](https://modrinth.com/modpack/dbop)
 
 ![](https://img.shields.io/modrinth/game-versions/olssWAmw?logo=modrinth&style=flat&color=1BDA6A) ![](https://img.shields.io/modrinth/v/olssWAmw?color=1BDA6A&logo=Modrinth) ![](https://img.shields.io/modrinth/dt/olssWAmw?color=1BDA6A&logo=Modrinth) ![](https://img.shields.io/discord/966225033968111647?color=5865F2&label=%E5%9C%9F%E9%9D%88%E6%B3%A5%E5%9C%9F%E5%B9%AB&logo=discord)
